@@ -3,11 +3,11 @@ on : push
 jobs:
     myjob1:
         runs-on: ubuntu-latest
-        step:
+        steps:
         - runs:pwd
         - runs:ls
     myjob2:
         runs-on: ubuntu-latest
-        step:
+        steps:
         - runs:python -V
      
