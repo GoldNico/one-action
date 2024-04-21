@@ -4,10 +4,10 @@ jobs:
     myjob1:
         runs-on: ubuntu-latest
         steps:
-        - run:pwd
-        - run:ls
+        - run: pwd
+        - run: ls
     myjob2:
         runs-on: ubuntu-latest
         steps:
-        - run:python -V
+        - run: python -V
      
