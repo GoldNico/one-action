@@ -10,4 +10,10 @@ jobs:
         runs-on: ubuntu-latest
         steps:
         - run: python -V
+    myjob3:
+        runs-on: ubuntu-latest
+        name: "Get URL"
+        steps:
+        - run: curl ifconfig.me
+
      
